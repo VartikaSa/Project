@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(12, 60, 50);
+  /* light yellow */
+  padding: 10px;
+}
+
+.left {
+  color: white;
+  font-weight: bold;
+  font-size: 30PX;
+  margin-bottom: 5px;
+}
+.left .text{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(191, 178, 162);
+}
+.right1 {
+  color: rgb(205, 205, 50);
+  font-weight: bold;
+  margin-top: -30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.text {
+  color: whitesmoke;
+}
+
+.arrow {
+  font-size: 20px;
+  color: rgb(205, 205, 50);
+  margin-top: 10px;
+}
+.cop2 {
+  background-color: rgb(12, 60, 50);
+  margin-top: 0px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 0px;
+  margin-left:250px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 110px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.bg-green {
+  background-color: green;
+  /* Or any other color you prefer */
+  padding: 10px;
+}

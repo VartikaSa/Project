@@ -1,0 +1,92 @@
+.container12 {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgb(19, 47, 43);
+    display: flex;
+    flex-direction: row;
+    /* Change to row */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Allow wrapping to next row */
+}
+
+.content {
+    text-align: justify;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.section {
+    flex: 1 1 25%;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.content
+{
+    font-size: 10px;
+    margin-right: 80px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding-right: 10px;
+    color: rgb(186, 186, 167);
+}
+
+.imagesApp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.secondApp {
+    margin-right: 950px;
+}
+.firstApp
+{
+    margin-top: -10px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(19, 47, 43);
+}
+
+.follow-us {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* Align vertically */
+    margin-left: 700px;
+    /* Push to the right */
+}
+
+.follow-us svg {
+    margin-left: 10px;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    margin-right: auto;
+    /* Push to the left */
+    margin-left: -12px;
+}
